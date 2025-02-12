@@ -2,7 +2,7 @@
 
 ## Setup
 * For using command line, follow instructions in this [GitHub page](https://github.com/ds5110/git-intro/blob/main/setup.md).
-* Colab otherwise.
+* You also have an option to simply use Colab.
 
 ## Group Assignment 1
 
