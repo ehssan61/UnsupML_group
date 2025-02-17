@@ -17,7 +17,7 @@ We will need a comprehensive exploratory data analysis performed on each dataset
 - Handling missing values (if needed)
 - Scaling
 - One-hot encoding
-- Re-coding (I can’t remember the proper name for that off-hand), etc.
+- Feature Transformation
 
 This will require written materials to support our decisions.
 
