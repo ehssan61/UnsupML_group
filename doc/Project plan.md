@@ -44,11 +44,11 @@ We will apply five different clustering techniques to each dataset:
 |-----------------------------------|--------------------------|--------------------------|
 | **EDA**                           | Sally                    | Eshan                    |
 | **Partitional: Spectral Clustering** |  Lu                        |     Lu                     |
-| **AHC with: BIRCH**              |                          |                          |
+| **AHC with: BIRCH**              | Peter                    | Peter                    |
 | **Density: DBSCAN**              |                          |                          |
 | **Grid: CLIQUE**                 |                          |                          |
 | **Model & Graph: Gaussian Mixture Model** |                 |                          |
-| **Slide Beautifier**             |                          |                          |
+| **Slide Beautifier**             | Peter                    | Peter                    |
 | **Editor-in-Chief**              |  Jaee/Sally              |  Jaee/Sally              |
 
 Let’s fill in the remaining assignments and get started!

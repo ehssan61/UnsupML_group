@@ -11,6 +11,7 @@ make convert_jupyter EDA_Shill_Bidding_Sun830pm.jpynb
 ## Group Assignment 1
 
 * [Link](https://colab.research.google.com/drive/186SsqkoZwK0R5gcvTO00hBqIVFs_oFEs?usp=sharing) to Colab version.
+* [Link](https://docs.google.com/presentation/d/1tvC9Ljs2UG3cjI59K5eEALSGA9bNqlZChpDjtmt5LuE/edit?usp=sharing) to slidedeck.
 
 * Setup data within the directory by following command:
 ```
