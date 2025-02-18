@@ -12,3 +12,7 @@ data:
 # Clean data.
 clean:
 	rm -rf data
+
+# Convert Jupyter notebook to .py file.
+convert_jupyter:
+	jupyter nbconvert --to script
