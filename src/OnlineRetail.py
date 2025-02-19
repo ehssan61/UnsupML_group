@@ -82,6 +82,7 @@ corr_matrix = rfm_std.corr()
 plt.figure(figsize=(5, 4))
 sns.heatmap(corr_matrix, annot=True, cmap="coolwarm", fmt=".2f")
 plt.title("Correlation Heatmap of RFM Features")
+plt.savefig("fig/OnlineRetail_heatmap.png")
 plt.show()
 
 # style of the graph
@@ -107,6 +108,7 @@ axes[2].set_xlabel("Total Spending")
 
 # Adjust layout and show the plots
 plt.tight_layout()
+plt.savefig("fig/OnlineRetail_hist.png")
 plt.show()
 
 
@@ -139,6 +141,7 @@ ax.set_title("3D Visualization of RFM Segmentation")
 # Add color bar to indicate classes
 cbar = plt.colorbar(scatter, ax=ax, shrink=0.6, pad=0.1)
 cbar.set_label("Class Labels")
+plt.savefig("fig/OnlineRetail_cbar.png")
 
 # Show the plot
 plt.show()
@@ -179,6 +182,7 @@ plt.ylabel("WCSS")
 
 # Add a title to the plot
 plt.title("Elbow Method for Optimal k")
+plt.savefig("fig/OnlineRetail_elbow.png")
 
 # Display the plot
 plt.show()
@@ -228,6 +232,7 @@ plt.xlabel("min_samples")
 plt.ylabel("Optimal eps")
 plt.title("Optimal eps vs. min_samples for DBSCAN")
 plt.grid(True)
+plt.savefig("fig/OnlineRetail_DBSCAN_opt.png")
 plt.show()
 
 # Print best min_samples value
@@ -266,6 +271,7 @@ plt.ylabel(f"{min_samples}-th Nearest Neighbor Distance")
 plt.title("K-Distance Graph for DBSCAN (Elbow Method)")
 plt.legend()
 plt.grid(True)
+plt.savefig("fig/OnlineRetail_DBSCAN_kdist.png")
 plt.show()
 
 
@@ -289,6 +295,7 @@ plt.plot(range(2, 11), bic_scores, marker="o", linestyle="--", color="r")
 plt.xlabel("Number of Clusters (k)")
 plt.ylabel("BIC Score")
 plt.title("Optimal Number of Clusters for GMM (BIC)")
+plt.savefig("fig/OnlineRetail_GMM.png")
 plt.show()
 
 
@@ -418,6 +425,7 @@ for i, (name, labels) in enumerate(cluster_results.items()):
 
 # Adjust layout to prevent overlapping labels
 plt.tight_layout()
+plt.savefig("fig/OnlineRetail_comparison.png")
 
 # Display the plots
 plt.show()

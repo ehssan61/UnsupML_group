@@ -173,6 +173,7 @@ import matplotlib.pyplot as plt
 plt.figure(figsize=(12, 6))
 sns.heatmap(df_numeric.corr(), annot=True, cmap="coolwarm", fmt=".2f")
 plt.title("Feature Correlation Heatmap")
+plt.savefig("fig/Shill_heatmap.png")
 plt.show()
 
 
@@ -181,6 +182,7 @@ plt.show()
 
 df_numeric = df.select_dtypes(include=["number"])  # Keep only numeric columns
 df_numeric.hist(figsize=(12, 10), bins=20, edgecolor="black")
+plt.savefig("fig/Shill_hist.png")
 plt.show()
 
 
@@ -191,6 +193,7 @@ import seaborn as sns
 
 df_numeric = df.select_dtypes(include=["number"])  # Select numeric columns
 sns.pairplot(df_numeric.sample(100))  # Sample to speed up plotting
+plt.savefig("fig/Shill_pair.png")
 plt.show()
 
 
@@ -200,6 +203,7 @@ plt.show()
 plt.figure(figsize=(15, 8))
 df_numeric.boxplot(rot=90)
 plt.title("Box Plots of Numeric Features")
+plt.savefig("fig/Shill_box.png")
 plt.show()
 
 
@@ -226,6 +230,7 @@ plt.xlabel("Number of Principal Components")
 plt.ylabel("Cumulative Explained Variance")
 plt.title("Explained Variance by PCA Components")
 plt.grid()
+plt.savefig("fig/Shill_PCA.png")
 plt.show()
 
 # If PC1 and PC2 explain less than 80% variance, consider a 3D PCA plot
@@ -246,6 +251,7 @@ if np.cumsum(pca.explained_variance_ratio_)[1] < 0.80:
     ax.set_ylabel("PC2")
     ax.set_zlabel("PC3")
     plt.title("3D PCA Visualization")
+    plt.savefig("fig/Shill_3d.png")
     plt.show()
 
 
