@@ -15,7 +15,7 @@ conda env create --name ds5230 -f environment.yml
 ```
 * You can activate the environment with following command:
 ```
-conda activate myenv
+conda activate ds5230
 ```
 
 ## Group Assignment 1
