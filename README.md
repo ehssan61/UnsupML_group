@@ -37,3 +37,6 @@ make preprocess
 * Jupyter version of the preprocessed datasets can be found here:
     * [Shill Bidding Dataset](src/OnlineRetail.ipynb)
     * [Online Retail](src/EDA_Shill_Bidding_Sun830pm.ipynb)
+
+* EDA can be found here:
+    * [EDA for Shill Bidding Dataset](doc/EDA%20for%20shill%20bidding%20dataset%20report.md)
