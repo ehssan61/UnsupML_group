@@ -40,15 +40,15 @@ Summary Statistics & Data Distribution
 df.describe() was used to inspect key statistics (mean, min, max, standard deviation) for all numerical variables.
 A correlation heatmap was generated to identify redundant features that might not contribute useful information to clustering.
 
-[create link to Correlation Heatmap in fig folder]
+![alt text](../fig/Shill_heatmap.png)
 
 Histograms provided insight into feature distributions and possible skewness.
 
-[create link to Histograms in fig folder]
+![alt text](../fig/Shill_hist.png)
 
 Boxplots were used to identify extreme outliers that might impact clustering results.
 
-[create link to Box Plot image in fig folder]
+![alt text](../fig/Shill_box.png)
 
 Interquartile Range (IQR) Analysis quantified the number of extreme values in each feature, but no action was taken to remove outliers as they might be relevant for fraud detection.
 
@@ -59,7 +59,8 @@ Principal Component Analysis (PCA) was applied to check whether dimensionality r
   - If the first two components explained more than 80% of the variance, a 2D PCA plot would suffice.
   - A 3D PCA visualization was also generated to analyze data structure in three principal components.
 
-[create link to PCA figure]
+![alt text](../fig/Shill_PCA.png)
+![alt text](../fig/Shill_3d.png)
 
 
 4. MinMax Scaling
