@@ -13,6 +13,7 @@ data:
 clean:
 	rm -rf data
 
-# Convert Jupyter notebook to .py file.
-convert_jupyter:
-	jupyter nbconvert --to script
+# Data preprocessing.
+preprocess:
+	python -B src/EDA_Shill_Bidding_Sun830pm.py
+	python -B src/OnlineRetail.py
