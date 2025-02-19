@@ -33,3 +33,7 @@ make data
 ```
 make preprocess
 ```
+
+* Jupyter version of the preprocessed datasets can be found here:
+    * [Shill Bidding Dataset](src/OnlineRetail.ipynb)
+    * [Online Retail](src/EDA_Shill_Bidding_Sun830pm.ipynb)
